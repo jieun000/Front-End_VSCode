@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼(입력양식들)</title>
+</head>
+<body>
+    form method="get(용량제한O)/post(보안,용량제한X)" action="입력된 데이터를 처리.jsp"
+    <br>
+    input type="text" size=50 maxlength="10" minlength="5" placeholder="아이디" value="http://~,고길동" readonly disabled
+    <br>
+    <br>
+        아이디: <input type="id"><br>
+        텍스트 상자: <input type="text"><br>
+        비밀번호: <input type="password"><br>
+        라디오버튼: <input type="radio" name="gender" value="male">남자<br>
+        라디오버튼: <input type="radio" name="gender" value="male">여자<br>
+        체크박스: <input type="checkbox" name="chk" value="html">HTML <br>
+        체크박스: <input type="checkbox" name="chk" value="html" checked>CSS <br>
+        체크박스: <input type="checkbox" name="chk" value="html">JS <br>
+        전송버튼: <input type="submit" value="전송"><br>
+        리셋버튼: <input type="reset" value="리셋">
+    <br>
+        <input type="button" value="버튼" onclick="alert('짜란')">
+    <br>
+        <textarea name="area" cols="30" rows="5"></textarea>
+    <br>
+        <select name="colors">
+            <option value="red">빨강</option>
+            <option value="blue" selected>파랑</option>
+            <option value="pink">분홍</option>
+        </select>
+    <br>
+        <fieldset>
+            <legend>그룹 제목</legend>
+            <p>메모1</p>
+            <p>메모2</p>
+        </fieldset>
+    <br>
+        <form enctype="multipart/form-data">
+            <input type="file" accept=".jpe, .gif"><br>
+            <input type="search"><br>
+            <input type="text"><br>
+            <input type="email"><br>
+            <input type="number">
+        </form>
+
+</body>
+</html>
