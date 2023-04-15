@@ -1,0 +1,24 @@
+ol {
+    /* list-style-type: decimal-leading-zero; 00 */
+    /* list-style-type: lower-roman;   로마소문자   */
+    list-style-type: upper-alpha;   /*대문자알파벳*/
+    background-color: aqua;
+}
+
+ul {
+    /* list-style-type: square; */
+    /* list-style-type: none; */
+    /* list-style-image: url("../image/버튼.gif"); */
+    background-color: bisque;
+}
+
+ul li {
+    background-color: pink;
+    list-style: none;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    margin: 0;
+    padding: 20px 0 20px 50px;
+}
+

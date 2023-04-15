@@ -1,0 +1,11 @@
+li {
+    border: 1px solid red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.visi {
+    /* visibility: hidden; 내용만 안보이게*/
+    display: none;  /*자리도 안보이게*/
+}

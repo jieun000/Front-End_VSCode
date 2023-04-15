@@ -1,0 +1,41 @@
+h3 {
+    text-align: center;
+    color: pink;
+    background-color: antiquewhite;
+}
+/* *{
+    color: red;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .은 클래스 표시 */
+.fr {
+    color: red;
+}
+/* #아이디 */
+#bg {
+    background-color: aqua;
+}
+/* h1, p, .fr {
+    color: blueviolet;
+} */
+
+/* 하위클래스만 */
+div p {
+    color: red;
+}
+/* 하위 특정클래스만 */
+div .f-s {
+    color: red;
+}
+
+#second .f-s {
+    color: red;
+}
+
+/* div-> span-> 외부p태그 */
+div p {
+    color: red;
+}

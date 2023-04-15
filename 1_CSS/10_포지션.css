@@ -1,0 +1,15 @@
+.float {
+    float: left;
+}
+/* .clear {
+    clear: both;
+} */
+
+div {
+    width: 500px;
+    height: 150px;
+    border: 1px solid red;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow: scroll;
+}

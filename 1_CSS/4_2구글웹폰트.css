@@ -1,0 +1,14 @@
+/* font-family: 'Merienda', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    color: gold;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-shadow: 0 0 30px white, 1px 1px 40px green;
+}

@@ -1,0 +1,10 @@
+li {
+    border: 1px solid red;
+    display: inline;
+    width: 100px;
+}
+
+em {
+    border: 1px solid red;
+    display: block;
+}

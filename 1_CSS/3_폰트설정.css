@@ -1,0 +1,45 @@
+.fs {
+    /* 16px 1em 100% 12pt */
+    font-size: 30px;
+}
+
+p {
+    /* 100~900/400이 기본, lighter(100), normal(400), bold(700), bolder(900) */
+    font-weight: 700;   /*700*/
+    /* line-height: 50px; */
+    line-height: 120%;
+    /* search: 웹 안전 글꼴 */
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+/* h3 {
+    font-variant: small-caps;
+} */
+
+h3 {
+    font: bold italic small-caps 30px/150% "굴림",Gulim;
+    /* color: red; */
+    /* color: rgb(255, 100, 12); */
+    color: #ff8080;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+    text-transform: capitalize;
+    /* text-shadow: 가로,세로,퍼짐정도,그림자색; */
+    /* text-shadow: -2px -2px 5px red; */
+    text-shadow: -2px -2px 5px red, blue 2px 2px 5px;
+    letter-spacing: 25px;   /*자간*/    
+}
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+h4 {
+    word-spacing: 50px;
+    /* direction: rtl; */
+    text-indent: 15px; /* 앞들임 */
+}

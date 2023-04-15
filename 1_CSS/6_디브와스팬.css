@@ -1,0 +1,21 @@
+span {
+    border: 1px solid red;
+    width: 500px;
+    /* 안 됨
+    margin-top: 10px;   
+    margin-bottom: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+img {
+    width: 70px;
+}
