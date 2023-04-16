@@ -1,0 +1,29 @@
+/* .rel { */
+    /* position: static;  */
+    /* width: 500px;
+    height: 500px; */
+    /* border: 3px solid red;
+    position: relative;
+    left: 300px;
+    top: 300px;
+}z
+rel img {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+} */
+
+.F {
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    /* background-color: pink;
+    opacity: 0.2; */
+    background-color: rgba(255, 200, 150, 0.2);
+}

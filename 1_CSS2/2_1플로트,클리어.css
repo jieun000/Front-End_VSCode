@@ -1,0 +1,22 @@
+div {
+    width: 150px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+}
+
+.box1 {
+    background-color: yellow;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    width: 450px;
+    background-color:blueviolet;
+    clear: both;
+}

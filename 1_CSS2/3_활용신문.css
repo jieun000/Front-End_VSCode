@@ -1,0 +1,35 @@
+div {
+    border: 1px solid black;
+    padding: 20px;
+}
+#container {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+#heater {
+    margin-bottom: 20px;
+}
+#left {
+    float: left;
+    width: 150px;
+    margin: 0 20px 20px 0;
+    box-sizing: border-box;
+}
+#contents {
+    float: left;
+    width: 620px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+#side {
+    float: right;
+    width: 150px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+#footer {
+    clear: both;
+}

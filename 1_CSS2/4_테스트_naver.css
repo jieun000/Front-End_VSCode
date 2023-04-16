@@ -1,0 +1,112 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    font-size:  15px/1.8 'Noto Sans KR', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+/* div {
+    border: 1px solid black;
+} */
+
+#container {
+    background-color: #f5f6f8;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+}
+#Wraper {
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;
+}
+#header {
+    text-align: center;
+    margin: 50px;
+}
+
+.lw input {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.submit {
+    background-color: #03c75a;
+    color: white;
+    cursor: pointer;
+}
+
+.stateLeft {
+    float: left;
+}
+.stateRight {
+    float: right;
+}
+
+.loginWrap {
+    /* border: 1px solid #ccc; */
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    /* color: #444; */
+}
+
+.loginWrap2 {
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    overflow: auto;
+    margin-left: 40px;
+}
+
+.loginWrap2 h2 {
+    margin-bottom: 30px;
+}
+
+.loginWrap2 div a{
+    text-decoration: none;
+    border: 1px solid #03c75a;
+    padding: 10px;
+    width: 47%;
+    box-sizing: border-box;
+    float: left;
+    color: #444;
+}
+.loginWrap2 div a:first-child {
+    margin-bottom: 6%;
+}
+.loginWrap2 div a:hover {
+    background-color: #03c75a;
+    color: white;
+}
+
+.searchWrap {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.searchWrap a {
+    /* border: 1px solid red; */
+    margin: 0 10px;
+    color: #444;
+}
+
+
+#footer img {
+    width: 80px;
+    vertical-align: middle;
+}
