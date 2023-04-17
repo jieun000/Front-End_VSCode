@@ -1,0 +1,30 @@
+/* 속성 선택자
+[속성]: 해당 속성을 다지고 있는 모든거
+p[속성]: p태그 중 해당 속성을 가지고 있는거
+[속성="속성값"]: 해당 속성을 가지고 있는거
+[class="ss"]: 클래스가 ss인 모든거 */
+
+/* [href] {
+  color: red;
+}
+
+[class] {
+  color: red;
+}
+p[class] {
+  color: red;
+}
+[class="style2"] {
+  color: blue;
+} */
+
+/* [title~="태그"] {
+  color: red;
+}  */
+
+/* [title^="태그"] {
+  color: red;
+} */
+[title="태그"] {
+  color: red;
+}

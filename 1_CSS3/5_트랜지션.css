@@ -1,0 +1,13 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    
+    transition: all 2s;
+  }
+  
+  div:hover {
+    /* background-color: red; */
+    opacity: 0.5;
+  }
+  

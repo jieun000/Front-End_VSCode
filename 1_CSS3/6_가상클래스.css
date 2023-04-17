@@ -1,0 +1,14 @@
+/* div p:nth-child(3) {
+  color: red;
+} 
+/* div p:nth-child(odd) {
+  color:  blue;
+}
+div p:nth-child(even) {
+  color:  yellow;
+} */
+
+
+div p:nth-of-type(4) {
+    color: blue;
+  }

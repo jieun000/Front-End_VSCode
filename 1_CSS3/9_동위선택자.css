@@ -1,0 +1,15 @@
+/* h1 ~ p {
+  color: red;
+} */
+
+/* h1 + p {
+  color: red;
+} */
+
+/* input[type="radio"]:checked + label{
+  color: red;
+} */
+
+div > p {
+  color: red;
+}

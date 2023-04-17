@@ -1,0 +1,39 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+  
+    animation: ani 2s 1s infinite normal none;
+    
+  }
+  
+  @keyframes ani {
+    0% {
+      left: 0;
+      top: 0;
+      background-color: red;
+    }
+    25% {
+      left: 200px;
+      top: 0;
+      background-color: blue;
+    }
+    50% {
+      left: 200px;
+      /* bottom: 200px;  */
+      top: 200px;
+      background-color: yellow;
+    } 
+    75% {
+      left: 0;
+      top: 200px;
+      background-color: green
+    }
+    100% {
+      left: 0;
+      top: 0;
+      background-color: red
+    }
+  }
+  

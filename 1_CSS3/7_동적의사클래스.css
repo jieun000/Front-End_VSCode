@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+  }
+  
+a:link {
+  color: red;
+}
+a:visited {
+  color: chocolate;
+}
+a:hover {
+  background-color: blue;
+}
+a:active {
+  background-color: brown;
+}
+a::selection {
+  background-color: aqua;
+}
+
+input:focus { 
+  background-color: chartreuse;
+}
+input::placeholder {
+  color: red;
+}
+
+.s1::selection{
+  background-color: blue;
+  color: white;
+}
+.s2::selection{
+  background-color: red;
+  color: yellow;
+}

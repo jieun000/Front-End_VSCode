@@ -1,0 +1,21 @@
+div {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  
+    /* transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, 0); */
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: scale(1);  원래크기, px %안씀 */
+    /* transform: scale(2);  두배커짐 */
+    /* transform: scale(2, 3); X축2배 Y축3배  */
+    /* transform: rotate(45deg); deg각도 */
+    /* transform-origin: left; 중심점설정 */
+    /* transform: skew(10deg, 10deg); 기울임정도 */
+    /* transform: skewX(10deg); */
+    /* transform: skewY(10deg); */
+  }
