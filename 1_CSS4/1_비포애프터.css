@@ -1,0 +1,47 @@
+/* 
+::befoe
+::after
+태그::before
+
+해당 태그 부모
+before, after-> 자식(인라인) */
+
+h1::before {
+  content: "★";
+  color: red;
+}
+h1::after {
+  content: "hi";
+  background-color: red;
+  color: white;
+  font-size: 10px;
+}
+
+.con { 
+width: 400px;
+height: 400px;
+background: url('image/profile.jpg');
+background-size: cover; 
+position: relative;
+}
+.con p {
+  text-align: center;
+  line-height: 350px;
+  font-size: 30px;
+  color: white;
+}
+.con::before {
+  content: "ZZZZZZZZZZZZZ";
+  color: white;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+a::after {
+  content: '('attr(href)")"; /* 링크 주소 출력 */
+}
