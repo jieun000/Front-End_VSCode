@@ -1,0 +1,40 @@
+/* .container div{
+  height: 300px;
+  float: left;
+}
+.side {
+  background: skyblue;
+  width: 300px;
+} */
+/* - 띄어쓰기 필수 */
+/* .content {
+  background: tomato;
+  width: calc(100% - 300px);  
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.container div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background: skyblue;
+  display: inline-block; */
+  /* margin-right: -6px; */
+  /* font-size: 16px;
+}
+
+.container {
+  font-size: 0;
+} */
+
+
+
+b {
+  font-size: 40px;
+  vertical-align: middle;
+}
+  

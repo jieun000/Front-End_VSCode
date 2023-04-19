@@ -1,0 +1,50 @@
+/* .header {
+  background-color: beige;
+  padding: 5px;
+}
+a {
+  margin-left: 10px;
+  padding: 20px;
+} */
+
+.h {
+    float: left;
+    padding: 10px
+}
+p::before {
+content: "";
+display: block;
+clear: both;
+}
+
+a {
+text-decoration: none;
+border: 1px solid lightgray;
+background-color: yellow;
+padding: 5px 10px;
+
+}
+a:hover {
+opacity: 0.5;
+}
+
+ul {
+list-style: none;
+}
+ul li {
+line-height: 30px;
+margin-left: -20px;
+}
+ul li::before {
+content: "♥";
+padding-right: 10px;
+}
+.sale::after {
+content: "SALE";
+font-size: 10px;
+background-color: tomato;
+color: white;
+padding: 2px;
+margin-left: 5px;
+border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+/* 시멘틱 태그(semantic)	검색: MDN
+기능 없음 - 의미는 있음
+
+기능 있음- h1, a, img
+기능 없음- div, span
+ 
+ <dis class="header"> -> <hearder>
+ <dis class="main"> -> <main>
+ <dis class="footer"> -> <footer>
+
+header: 머리말(로고-네비<nav>)
+section: 페이지 구분
+aside: 사이드바
+article: 내용
+footer: 바닥글 - 회사 카피라이트 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header, section, footer {
+  width: 100vw;
+}
+
+header {
+  background-color: tomato;
+  height: 50px;
+  line-height: 45px;
+}
+
+section {
+  display: flex;
+  height: 500px;
+}
+
+aside {
+  background-color: aqua;
+  flex: 1;
+}
+aside:last-child {
+  background-color: yellow;
+}
+
+article {
+  background-color: lightgray;
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 50px;
+  background-color: salmon;
+  line-height: 45px;
+}

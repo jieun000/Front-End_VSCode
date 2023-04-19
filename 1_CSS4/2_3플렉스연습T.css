@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    /* width: 100vw; */
+  }
+  
+.box {
+  border: 1px solid red;
+  height: 200px;
+  width: 33%;
+  display: flex;
+  flex: 1;
+}
+.box div {
+  width: 50%;
+}
+.box div:nth-child(1) {
+  background-color: yellow;
+}
+.box div:nth-child(2) {
+  background-color: greenyellow;
+}
