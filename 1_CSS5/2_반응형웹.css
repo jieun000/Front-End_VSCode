@@ -1,0 +1,52 @@
+/* div {
+    height: 500px;
+    background-color: pink;
+}
+
+@media (max-width: 700px) {
+    div {
+        background-color: skyblue;
+    }
+} */
+
+/* ~425px까지는 박스가 한 줄에 하나씩
+
+426px~768px 박스가 한 줄에 두 개씩 */
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    padding-top: 100px;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background: skyblue;
+    height: 200px;
+    width: 20%;
+    margin: 5px ;
+    border: 1px solid black;
+}
+
+@media(max-width: 425px) {
+    .container {
+        flex-direction: column;
+    }
+    .container > div {
+        width: 90%;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > div {
+        width: 40%;
+    }
+}

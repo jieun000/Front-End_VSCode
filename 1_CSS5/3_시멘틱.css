@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header, section, footer {
+  width: 100vw;
+}
+
+header {
+  background-color: tomato;
+  height: 50px;
+  line-height: 50px;
+}
+
+section {
+  display: flex;
+  height: 500px;
+}
+
+aside {
+  background-color: aqua;
+  flex: 1;
+}
+
+aside:last-child{
+  background-color: yellow;
+}
+
+article {
+  background-color: lightgray;
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 50px;
+  background-color: salmon;
+}
+
+@media(max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+  article {
+    order: 0;
+  }
+  section aside:first-child {
+    order: 1;
+    background-color: green;
+  }
+  section aside:last-child {
+    order: 2;
+  }
+}
