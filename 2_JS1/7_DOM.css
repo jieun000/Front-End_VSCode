@@ -1,0 +1,24 @@
+/* .alert-box {
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    display: none;
+} */
+
+
+/* [DOM 2] */
+.alert-box {
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    display: none;
+}
+
+.box, .box2 {
+    background: pink;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <!-- <script>
+        console.log(document.body)
+    </script> -->
+    <link rel="stylesheet" href="7_DOM.css">
+</head>
+<body>
+
+    <!-- <script>
+        console.log(document.body)
+    </script> -->
+
+    <!-- <div>첫번째</div>
+    <ul>
+        <li>li태그</li>
+    </ul>
+    <div>마지막</div> -->
+
+
+    <!-- <div id="elem">
+        <div id="elem-child">내용</div>
+    </div> -->
+
+
+    <!-- <ul class="abc">
+        <li>1-1</li>
+        <li>1-2</li>
+    </ul>
+    <ul>
+        <li>2-1</li>
+        <li>2-2</li>
+    </ul> -->
+
+
+    <!-- <div class="alert-box" id="ab">알림창 
+        <button onclick="hide()">X</button>
+    </div>
+    <button onclick="show()">알림창 표시</button> -->
+
+
+
+    <!-- <div class="alert-box" id="ab">
+        알림창
+        <button onclick="showHide('none')">X</button>
+    </div> -->
+<!-- 1) -->
+    <!-- <button onclick="showHide('block')">알림창 표시</button> -->
+<!-- 2) -->
+    <!-- <button onclick="showCh('첫번째 내용')">알림창 표시1</button>
+    <button onclick="showCh('두번째 내용')">알림창 표시2</button>
+    <button onclick="showCh('세번째 내용')">알림창 표시3</button> -->
+
+    <!-- <div class="alert-box" id="ab1">a</div>
+    <div class="alert-box" id="ab2">b</div>
+    <div class="alert-box" id="ab3">c</div>
+    <button onclick="show1('ab1')">알림창1</button>
+    <button onclick="show2('ab2')">알림창2</button>
+    <button onclick="show3('ab3')">알림창3</button> -->
+<!-- 위 더 간략 방법 -->
+<!-- <div class="alert-box" id="ab1">a</div>
+<div class="alert-box" id="ab2">b</div>
+<div class="alert-box" id="ab3">c</div>
+    <button onclick="show('ab1')">알림창1</button>
+    <button onclick="show('ab2')">알림창2</button>
+    <button onclick="show('ab3')">알림창3</button> -->
+
+<!-- 버튼 없애기 -->
+<!-- 왜 다 안 되지? -->
+
+    <!-- 함수 3개로 -->
+<!-- <div class="alert-box" id="ab1">
+    첫번째 박스<button onclick="hide1()">x</button></div>
+<div class="alert-box" id="ab2">
+    두번째 박스<button onclick="hide2()">x</button></div>
+<div class="alert-box" id="ab3">
+    세번째 박스<button onclick="hide3()">x</button></div> -->
+
+    <!-- 함수 1개로 -->
+<!-- <div class="alert-box" id="ab1">
+    첫번째 박스<button onclick="hide('ab1')">x</button></div>
+<div class="alert-box" id="ab2">
+    두번째 박스<button onclick="hide('ab2')">x</button></div>
+<div class="alert-box" id="ab3">
+    세번째 박스<button onclick="hide('ab3')">x</button></div> -->
+
+    <!-- 함수 없이 -->
+<!-- <div class="alert-box" id="ab1">
+    첫번째 박스<button onclick="showHide('ab1', 'none')">x</button></div>
+<div class="alert-box" id="ab2">
+    두번째 박스<button onclick="showHide('ab2', 'none')">x</button></div>
+<div class="alert-box" id="ab3">
+    세번째 박스<button onclick="showHide('ab3', 'none')">x</button></div> -->
+
+
+    <!-- <button onclick="show('ab1', 'block')">알림창1</button>
+    <button onclick="show('ab2', 'block')">알림창2</button>
+    <button onclick="show('ab3', 'block')">알림창3</button> -->
+
+
+<!-- [DOM 2] -->
+
+      <!-- <div class="box">
+        보였다 안 보였다
+      </div>
+    <button onclick="onOff()">on/off</button> -->
+
+
+    <!-- <div class="box">
+        보였다 안 보였다
+    </div>
+    <button class="btn" onclick="onOff()"></button> -->
+
+
+
+    <div class="box">
+        보였다 안 보였다
+    </div>
+    <br>
+    <button class="btn" onclick="sh()"></button>
+
+    <div class="box2">
+        보였다 안 보였다ver.2
+    </div>
+    <br>
+    <button onclick="sh()">버튼</button>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- 자바 스크립트 -->
+    <script src="7_DOM.js"></script>
+    <!-- <div>스크립트 아래부분</div> -->
+</body>
+</html>
