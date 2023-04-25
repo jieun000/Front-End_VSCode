@@ -7,7 +7,7 @@
 
 // jQuery버전
 $('.navbar-toggler').on('click', function(){ 
-    // $('.list-group').addClass   //추가 = .classList.add()
-    // $('.list-group').removeClass    //삭제 = .classList.remove()
+    // $('.list-group').addClass('show');   //추가 = .classList.add()
+    // $('.list-group').removeClass('show');    //삭제 = .classList.remove()
     $('.list-group').toggleClass('show');   //토글
-})
+});
