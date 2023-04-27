@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.tab-btn {
+    display: block;
+    float: left;
+    padding: 20px;
+    color: gray;
+    cursor: pointer;
+}
+.list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.select {
+    border: 1px solid gray;
+}
+.show {
+    display: block;
+}
