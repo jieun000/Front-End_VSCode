@@ -6,6 +6,6 @@ li {
 }
 
 .visi {
-    /* visibility: hidden; 내용만 안보이게*/
+    /* visibility: hidden; /*내용만 안보이게*/
     display: none;  /*자리도 안보이게*/
 }

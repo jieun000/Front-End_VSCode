@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+        }
+        h3 {
+            color: #00ff00; /* RGB  #->16진수 형태로 표현 */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <script>
+        
+        // $(document).ready(function(){
+        //     var cnt = 0;
+        //     setInterval(() => {
+        //         cnt++
+        //         console.log(cnt)
+        //     }, 1000);
+        // })
+
+
+        $(document).ready(function(){
+            var arr = ["red","blue","yello","magenta","gold","black"]
+            var cnt = 0;
+            setInterval(() => {
+                cnt++
+                $("button").css("background-color",arr[cnt])
+            }, 1000);
+        })
+
+    </script>
+    <button>눌러라 그러면 색상이 변경될 거다.</button>
+
+
+    <!--         => random1             -->
+</body>
+</html>

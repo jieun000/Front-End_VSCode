@@ -1,9 +1,9 @@
 table {
     width: 50%;
     /* border: 1px solid black; */
-    border-collapse: collapse;
+    border-collapse: separate;
     table-layout: fixed;
-    caption-side: bottom;
+    /* caption-side: top; */
     empty-cells: hide;
 }
 

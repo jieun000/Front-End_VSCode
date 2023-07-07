@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script> <!-- 자바스크립트 쓰려면! -->
+</head>
+<body>      <!-- . :  현위치 // .. :  상위폴더 -->
+    <!-- <img src="./images/sample.png" alt="이미지가 없어요."> -->
+    <figure>
+        <img src="./images/sample1.png" alt="sample1" height="200">
+        <img src="./images/sample2.png" alt="sample2" height="200">
+        <figcaption>샘플이미지를 두 장을 넣었어요.</figcaption>
+    </figure>
+    <figure>
+        <img src="./images/sample3.png" alt="sample3" height="200">
+        <figcaption>샘플이미지를 한 장을 넣었어요.</figcaption>
+    </figure>
+
+    <!-- <script>
+        $(document).ready(function() {
+            var cnt = 0;
+            $("button").click(function() {
+                cnt += 5
+                $("img").attr("height", 300 + cnt)  // attr[attribute(속성)]
+            })
+        })
+    </script>
+    <button>이미지 키우기</button> -->
+
+    
+    <script>
+        $(document).ready(function() {
+            var cnt = 0;
+            var cnt2 = 0;
+            var flag = false
+            $("button").click(function() {
+                cnt2++; // 몇 회 눌렀는가?
+                if(flag==true) {
+                    cnt += 5 // 이미지를 5씩 증가
+                    $("img").attr("height", 200 + cnt) 
+                    //flag = false
+                    console.log("cnt: " , cnt, "cnt2: ", cnt2)
+                } else {
+                    cnt -= 5 // 이미지를 5씩 감소
+                    $("img").attr("height", 200 + cnt) 
+                    console.log("cnt: " , cnt, "cnt2: ", cnt2)
+                } if(cnt2 >= 5) { // 버튼 누른 회수가 5가 되면 0을 초기화
+                    cnt2 = 0;
+                    flag = !flag
+                } 
+                console.log(cnt2, flag)
+            })
+        })
+    </script>
+    <button>이미지 키우기</button>
+</body>
+</html>

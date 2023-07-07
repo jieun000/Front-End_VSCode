@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var dict3 = {'f':{'r':[1,2,3,4]}}
+        var sum1 = 0
+        console.log(dict3['f']['r'])
+        for (const i of dict3['f']['r']) {
+            sum1 += i
+        }
+        console.log(sum1)
+    </script> -->
+
+
+    <!-- <script>
+        var dict3 = {'f':{'r':[1,2,3,4]}}
+        var sum1 = 0
+        console.log(dict3.f.r) // 자바스크립트만 됨 (파이썬은 X)
+        for (const i of dict3.f.r) {
+            sum1 += i
+        }
+        console.log(sum1)
+    </script> -->
+
+
+    <script>
+        var dict3 = {'f':{'r':[1,2,3,4]}}
+        var sum1 = 0
+        var list1 = dict3.f.r
+        console.log(list1) 
+        for (const i of list1) {
+            sum1 += i
+        }
+        console.log(sum1)
+    </script>
+</body>
+</html>

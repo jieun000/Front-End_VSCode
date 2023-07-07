@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <!-- <script>
+        var arr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
+
+        setInterval(() => {
+            var colors = "#"
+            for(var i=0; i<6; i++) {
+                var rand = Math.random() 
+                // console.log("1)", rand)
+                // console.log("2)", rand*16)
+                var idx = parseInt(rand*16) // idx: 랜덤, 0 ~ 15, 정수
+                // console.log("3)", idx)
+                colors += arr[idx]
+            }
+            console.log(colors)
+            $("button").css("background-color", colors)
+        }, 3000);
+    </script>
+    <button>색상</button> -->
+
+    
+    <script>
+        var arr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
+
+        setInterval(() => {
+            var colors = "#"
+            for(var i=0; i<6; i++) {
+                var rand = Math.random() 
+                // console.log("1)", rand)
+                // console.log("2)", rand*16)
+                var idx = parseInt(rand*16) // idx: 랜덤, 0 ~ 15, 정수
+                // console.log("3)", idx)
+                colors += arr[idx]
+            }
+            // console.log(colors)
+            $("button#b").css("background-color", colors)
+        }, 3000);
+
+        $(document).ready(function() {
+            var flag = false
+            $("button#a").click(function() {
+                if(flag == true) {
+                    $("button#a").text("믿음")
+                } else {
+                    $("button#a").text("사랑")
+                }
+                flag = !flag
+                console.log(flag)
+            })
+        }) 
+
+    </script>
+    <button id="b">색상</button>
+    <button id="a">색상</button>
+</body>
+</html>

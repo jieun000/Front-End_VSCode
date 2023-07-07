@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script> <!-- 자바스크립트 쓰려면! -->
+</head>
+<body>
+    <script>
+
+        // var rand = Math.random() // 0보다 같거나 크고 1보다 작은 숫자 하나를 랜덤으로 반환
+        // console.log("1)",rand)
+        // console.log("2)",rand*10)
+        // console.log("3)",parseInt(rand*10))
+
+
+        var arr = ["red","blue","yello","magenta","gold","black"]
+        setInterval(() => {
+            var rand = Math.random() 
+            console.log("1)", rand)
+            console.log("2)", rand*6)
+            var idx = parseInt(rand*6)
+            console.log("3)", idx)
+            $("button").css("background-color", arr[idx])
+        }, 1000);
+
+        
+    </script>
+    <button>색상</button>
+</body>
+</html>
